@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c2fa21689589d4c597b4525d2d28bd69",
+    "revision": "28570d9e92b208f9eee79c4d99942bed",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "a222a8573415a84d4515",
+    "revision": "e7e4dac8e1095d4ef000",
     "url": "/portfolio/static/css/3.25727338.chunk.css"
   },
   {
-    "revision": "bb70aa4742529b12e9d5",
+    "revision": "a36842b09633a9bfe246",
     "url": "/portfolio/static/css/4.a8329f31.chunk.css"
   },
   {
-    "revision": "b027bb7ca7ed66f9d01c",
-    "url": "/portfolio/static/css/main.94fea01c.chunk.css"
+    "revision": "49aed512e9b594198dee",
+    "url": "/portfolio/static/css/main.35216fc3.chunk.css"
   },
   {
-    "revision": "8d1dc139b63df039ccac",
-    "url": "/portfolio/static/js/2.6512b8d1.chunk.js"
+    "revision": "cc1c547766be292f9c85",
+    "url": "/portfolio/static/js/2.495966d3.chunk.js"
   },
   {
-    "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/portfolio/static/js/2.6512b8d1.chunk.js.LICENSE.txt"
+    "revision": "b9941b26ce7f87a25d1a3bc0d5ae97bc",
+    "url": "/portfolio/static/js/2.495966d3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a222a8573415a84d4515",
-    "url": "/portfolio/static/js/3.df929d5a.chunk.js"
+    "revision": "e7e4dac8e1095d4ef000",
+    "url": "/portfolio/static/js/3.de0e9b02.chunk.js"
   },
   {
-    "revision": "bb70aa4742529b12e9d5",
-    "url": "/portfolio/static/js/4.93ac6b22.chunk.js"
+    "revision": "a36842b09633a9bfe246",
+    "url": "/portfolio/static/js/4.fa39c058.chunk.js"
   },
   {
-    "revision": "b027bb7ca7ed66f9d01c",
-    "url": "/portfolio/static/js/main.cfe3bbfe.chunk.js"
+    "revision": "49aed512e9b594198dee",
+    "url": "/portfolio/static/js/main.86b9f595.chunk.js"
   },
   {
-    "revision": "410dba8d33b665c7ea9f",
-    "url": "/portfolio/static/js/runtime-main.cce2ec19.js"
+    "revision": "ed65086eeb657719e798",
+    "url": "/portfolio/static/js/runtime-main.0b03efdf.js"
   },
   {
     "revision": "a3752c4bf72688b3db38d0911cf75f61",
@@ -48,12 +48,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
-    "revision": "c59720d63dc3595a12e1c7e641a1bfa5",
-    "url": "/portfolio/static/media/airbnbLogo.c59720d6.png"
+    "revision": "64fadea92880efb6806989f05601fd57",
+    "url": "/portfolio/static/media/_earltestframework.64fadea9.PNG"
   },
   {
-    "revision": "47a7a717679b640ceb1b05d38c480a61",
-    "url": "/portfolio/static/media/codeInLogo.47a7a717.webp"
+    "revision": "c59720d63dc3595a12e1c7e641a1bfa5",
+    "url": "/portfolio/static/media/airbnbLogo.c59720d6.png"
   },
   {
     "revision": "51cf7192327488da3d2a171280680c16",
@@ -76,14 +76,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/githooks.73c72725.PNG"
   },
   {
-    "revision": "e79c639294c805688be731921368c8f8",
-    "url": "/portfolio/static/media/googleAssistantLogo.e79c6392.webp"
-  },
-  {
-    "revision": "1ce1241cdadfe658de1bd93c7d26a277",
-    "url": "/portfolio/static/media/identifiermappedevent.1ce1241c.PNG"
-  },
-  {
     "revision": "48a1a45dbf8bb5e6b73161e77a9fceb1",
     "url": "/portfolio/static/media/juitlogo.48a1a45d.png"
   },
@@ -92,20 +84,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/manOnTable.52be3144.svg"
   },
   {
+    "revision": "41b7afe8205ba92b5bbbcbf644af2500",
+    "url": "/portfolio/static/media/microservicechasis.41b7afe8.PNG"
+  },
+  {
     "revision": "feda39da812f6e6a779ab47c90df8a4c",
     "url": "/portfolio/static/media/qtweet.feda39da.PNG"
   },
   {
-    "revision": "e72f8c464948ee8445fa5c28169bdb5b",
-    "url": "/portfolio/static/media/rmscli.e72f8c46.PNG"
-  },
-  {
     "revision": "a4254a74d3f36223ea3440954daedae2",
     "url": "/portfolio/static/media/rmslogo.a4254a74.png"
-  },
-  {
-    "revision": "1dab80fabf3881c3506b6aed8c6a0a88",
-    "url": "/portfolio/static/media/rocklib.1dab80fa.PNG"
   },
   {
     "revision": "3440939881da8339d1597e8d77cdf850",
