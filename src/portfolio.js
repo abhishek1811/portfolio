@@ -231,7 +231,7 @@ const bigProjects = {
     {
       image: require('./assets/images/githooks.PNG'),
       projectName: "Servicing Git Hooks",
-      projectDesc: "Pioneered the implementation of Git Hooks into the Servicing stream to track production delivery, thereby improving visibility into the company and enabling audits of all the work going into main branch. This was vital in upholding the release health, quality assurance and development standards in our deployments. Opened up the platform for SDLC automation, allowing for substantial improvements to the quality and efficiency of development processes. Established pre-flight validation jobs, which are essential for creating effective CI/CD pipelines. Standardized commit message template to guarentee our ability to audit changes going into production.",
+      projectDesc: "Pioneered the implementation of Git Hooks into the Servicing stream to track production delivery, thereby improving visibility into the company and enabling audits of all the work going into main branch. This was vital in upholding the release health, quality assurance and development standards in our deployments. Opened up the platform for SDLC automation, allowing for substantial improvements to the quality and efficiency of development processes. Established pre-flight validation jobs, which are essential for creating effective CI/CD pipelines. Standardized commit message template to guarantee our ability to audit changes going into production.",
       projectDetails: [
         {
           impact: "Lead to much safer and controlled production release.",
@@ -251,43 +251,6 @@ const bigProjects = {
           name: "Code",
           url: "https://git.rockfin.com/myql-servicing/servicing-git-hooks"
         }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require('./assets/images/qtweet.PNG'),
-      projectName: "Servicing Platform Qtweet Forwarder",
-      projectDesc: "As we are migrating to the UM Queue, we need to update our services with the UM Queue APIs to forward the Qtweets to the destination. Multiple services in Servicing Platform depends on the Qtweets so we need a fast and effective solution to migrate. With a broader vision in mind, I architected and engineered(assisted) an extensible and generic QTweet forwarding system to forward any SP's QTweet produced in AWS to their On-Prem destinations.",
-      projectDetails: [
-        {
-          impact: "Processed over 19 million QTweet events with no data loss.",
-          subimpact: "https://grafana.nonprod.qlmetrics.com/d/ny08IY0Gk/servicing-platform-qtweets-service",
-        },
-        {
-          impact: "Pathway to add new/migrate Qtweet with minimal code change.",
-          subimpact: "Adding new QTweet events requiring only the addition of a single file.",
-        },
-        {
-          impact: "Ability to get data analytics on third party communication.",
-        }
-      ],
-      footerLink: [ 
-        {
-          name: "Architecture",
-          url: "https://confluence/plugins/gliffy/viewer.action?inline=false&pageId=201857929&attachmentId=250222320&name=LoanViewedEvent%28Updated--Final%29&version=8&ceoid=201857929&key=ITServicingArchitecture&lastPage=%2Fpages%2Fviewpage.action%3FpageId%3D201857929&imageUrl=%2Fdownload%2Fattachments%2F201857929%2FLoanViewedEvent%2528Updated--Final%2529.png%3Fversion%3D8%26modificationDate%3D1627570463000%26api%3Dv2&gonUrl=%2Fdownload%2Fattachments%2F201857929%2FLoanViewedEvent%2528Updated--Final%2529%3Fversion%3D8%26modificationDate%3D1627570462678%26api%3Dv2"
-        },
-        {
-          name: "Documentation",
-          url: "https://confluence/display/ITServicingArchitecture/1825754+-+LoanViewedEvent+in+RMS"
-        },
-        {
-          name: "Qtweet Forwarder",
-          url: "https://git.rockfin.com/myql-servicing/207874-qtweets-sqs-push-lambda"
-        },
-        {
-          name: "Qtweet Receiver",
-          url: "https://git.rockfin.com/myql-servicing/207896-qtweets-sqs-receive-lambda"
-        },
         //  you can add extra buttons here.
       ]
     },
@@ -321,64 +284,6 @@ const bigProjects = {
         {
           name: "Architecture",
           url: "https://confluence/plugins/gliffy/viewer.action?inline=false&pageId=245078357&attachmentId=263164578&name=ClientDataService-Phase1&version=3&ceoid=245078357&key=ITServicingArchitecture&lastPage=%2Fpages%2Fviewpage.action%3FpageId%3D245078357&imageUrl=%2Fdownload%2Fattachments%2F245078357%2FClientDataService-Phase1.png%3Fversion%3D3%26modificationDate%3D1610587174000%26api%3Dv2&gonUrl=%2Fdownload%2Fattachments%2F245078357%2FClientDataService-Phase1%3Fversion%3D3%26modificationDate%3D1610587174000%26api%3Dv2"
-        },
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require('./assets/images/rocklib.PNG'),
-      projectName: "RockLib Metrics in RMS Services",
-      projectDesc: "From POC to e2e implementation, Integrated metrics to ensure all our major services that would be generating the Four Golden Signal metrics to be consumed by our data visualization tool Grafana. I served as the driving force throughout the project, executing all deliverable with a team in a single iteration.",
-      projectDetails: [
-        {
-          impact: "Substantially improved response time of our incidents.",
-          subimpact: "On-Call Members have more metrics available to assess service health and impact during tech incidents.",
-        },
-        {
-          impact: "Vital tool for deployment and quality assurance.",
-          subimpact: "Engineers have health metrics available to assess production changes and impact of production deployments.",
-        }
-      ],
-      footerLink: [
-        {
-          name: "Documentation",
-          url: "https://git.rockfin.com/RockLib/RockLib.Metrics"
-        },
-        {
-          name: "Code Example",
-          url: "https://git.rockfin.com/myql-servicing/servicing-payments-bff/pull/224/files"
-        },
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require('./assets/images/rocklib.PNG'),
-      projectName: "Servicing Microservices Framework(On Going)",
-      projectDesc: "Contributing to a stream wide goal along with Staffs to design and implement a comprehensive framework for developing production-grade APIs, substantially reducing the time taken by engineers. Standardized the implementation of best practices for API development, providing a centralized support system that’s globally available, compatible across all platform and  addresses cross-cutting concerns (e.g. Traceability, Metrics, Logging, HTTP Clients, Service Connector). This will also help us to have global consistency and maintaince support across Servicing.",
-      projectDetails: [
-        {
-          impact: "Significantly reduces the development cost by providing reusable patterns for APIs.",
-          subimpact: " Allowing developers to focus on business logic.",
-        },
-        {
-          impact: "Builds high performing and secure foundation for new and old services.",
-          subimpact: " Reduces the risk of failure in feature delivery.",
-        }
-      ],
-      footerLink: [
-        {
-          name: "Documentation",
-          url: "https://confluence/x/pZmvDw"
-        },
-        {
-          name: "Code",
-          url: "https://git.rockfin.com/RocketTechServicing/Servicing-Microservices-Framework"
-        },
-        {
-          name: "In Progress",
-        },
-        {
-          name: "Stream Wide Goal",
         },
         //  you can add extra buttons here.
       ]
@@ -429,7 +334,44 @@ const bigProjects = {
       ]
     },
     {
-
+      image: require('./assets/images/qtweet.PNG'),
+      projectName: "Servicing Platform Qtweet Forwarder",
+      projectDesc: "As we are migrating to the UM Queue, we need to update our services with the UM Queue APIs to forward the Qtweets to the destination. Multiple services in Servicing Platform depends on the Qtweets so we need a fast and effective solution to migrate. With a broader vision in mind, I architected and engineered(assisted) an extensible and generic QTweet forwarding system to forward any SP's QTweet produced in AWS to their On-Prem destinations.",
+      projectDetails: [
+        {
+          impact: "Processed over 19 million QTweet events with no data loss.",
+          subimpact: "https://grafana.nonprod.qlmetrics.com/d/ny08IY0Gk/servicing-platform-qtweets-service",
+        },
+        {
+          impact: "Pathway to add new/migrate Qtweet with minimal code change.",
+          subimpact: "Adding new QTweet events requiring only the addition of a single file.",
+        },
+        {
+          impact: "Ability to get data analytics on third party communication.",
+        }
+      ],
+      footerLink: [ 
+        {
+          name: "Architecture",
+          url: "https://confluence/plugins/gliffy/viewer.action?inline=false&pageId=201857929&attachmentId=250222320&name=LoanViewedEvent%28Updated--Final%29&version=8&ceoid=201857929&key=ITServicingArchitecture&lastPage=%2Fpages%2Fviewpage.action%3FpageId%3D201857929&imageUrl=%2Fdownload%2Fattachments%2F201857929%2FLoanViewedEvent%2528Updated--Final%2529.png%3Fversion%3D8%26modificationDate%3D1627570463000%26api%3Dv2&gonUrl=%2Fdownload%2Fattachments%2F201857929%2FLoanViewedEvent%2528Updated--Final%2529%3Fversion%3D8%26modificationDate%3D1627570462678%26api%3Dv2"
+        },
+        {
+          name: "Documentation",
+          url: "https://confluence/display/ITServicingArchitecture/1825754+-+LoanViewedEvent+in+RMS"
+        },
+        {
+          name: "Qtweet Forwarder",
+          url: "https://git.rockfin.com/myql-servicing/207874-qtweets-sqs-push-lambda"
+        },
+        {
+          name: "Qtweet Receiver",
+          url: "https://git.rockfin.com/myql-servicing/207896-qtweets-sqs-receive-lambda"
+        },
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require('./assets/images/_earltestframework.PNG'),
       projectName: "Earl Test Framework",
       projectDesc: "Developing an effective, user-friendly platform for automating a wide range of industry level testing strategies under a unified framework, with the goal of eventual transition to a full CI/CD pipeline. The goal of this project is to have integration test, component test and e2e service test on top of common foundation. Earl uses microservices testing strategies to create infrastructure services in dev environment using docker API.",
       projectDetails: [
@@ -456,15 +398,74 @@ const bigProjects = {
       ]
     },
     {
+      image: require('./assets/images/microservicechasis.PNG'),
+      projectName: "Servicing Microservices Framework(On Going)",
+      projectDesc: "Contributing to a stream wide goal along with Staffs to design and implement a comprehensive framework for developing production-grade APIs, substantially reducing the time taken by engineers. Standardized the implementation of best practices for API development, providing a centralized support system that’s globally available, compatible across all platform and  addresses cross-cutting concerns (e.g. Traceability, Metrics, Logging, HTTP Clients, Service Connector). This will also help us to have global consistency and maintaince support across Servicing.",
+      projectDetails: [
+        {
+          impact: "Significantly reduces the development cost by providing reusable patterns for APIs.",
+          subimpact: " Allowing developers to focus on business logic.",
+        },
+        {
+          impact: "Builds high performing and secure foundation for new and old services.",
+          subimpact: " Reduces the risk of failure in feature delivery.",
+        }
+      ],
+      footerLink: [
+        {
+          name: "Documentation",
+          url: "https://confluence/x/pZmvDw"
+        },
+        {
+          name: "Code",
+          url: "https://git.rockfin.com/RocketTechServicing/Servicing-Microservices-Framework"
+        },
+        {
+          name: "In Progress",
+        },
+        {
+          name: "Stream Wide Goal",
+        },
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      //image: require('./assets/images/rocklib.PNG'),
+      projectName: "RockLib Metrics in RMS Services",
+      projectDesc: "From POC to e2e implementation, Integrated metrics to ensure all our major services that would be generating the Four Golden Signal metrics to be consumed by our data visualization tool Grafana. I served as the driving force throughout the project, executing all deliverable with a team in a single iteration.",
+      projectDetails: [
+        {
+          impact: "Substantially improved response time of our incidents.",
+          subimpact: "On-Call Members have more metrics available to assess service health and impact during tech incidents.",
+        },
+        {
+          impact: "Vital tool for deployment and quality assurance.",
+          subimpact: "Engineers have health metrics available to assess production changes and impact of production deployments.",
+        }
+      ],
+      footerLink: [
+        {
+          name: "Documentation",
+          url: "https://git.rockfin.com/RockLib/RockLib.Metrics"
+        },
+        {
+          name: "Code Example",
+          url: "https://git.rockfin.com/myql-servicing/servicing-payments-bff/pull/224/files"
+        },
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      //image: require('./assets/images/rocklib.PNG'),
       projectName: "Revamped Feature Toggle Library",
-      projectDesc: "After a production push, RMS-CPU usage was consistently increasing causing a need to recycle the containers every 4 hours. I found that the Servicing Feature Toggle Library can eb be improvised and can help us to fix the issue. I took the initiative to revamp the Library by implementing HTTP-bound optimization, high performance serialization, streaming support, and externalized cache and logging support. ",
+      projectDesc: "After a production push, RMS-CPU usage was consistently increasing causing a need to recycle the containers every 4 hours. I found that the Servicing Feature Toggle Library can be improvised and can help us to fix the RMS performance issue. I took the initiative to revamp the Library by implementing HTTP-bound optimization, high performance serialization, streaming support, and externalized logging support. ",
       projectDetails: [
         {
           impact: "Fixed the slow CPU leak problem in the RMS API, ",
           subimpact: "allowing the need for the 4-hour container recycle to cease.",
         },
         {
-          impact: "Provides ability to use the Servicing Toggle in all services. ",
+          impact: "Provides ability to use the Servicing Feature Toggle in all services. ",
         }
       ],
       footerLink: [
@@ -480,13 +481,16 @@ const bigProjects = {
       ]
     },    
     {
-      image: require('./assets/images/identifiermappedevent.PNG'),
+      // image: require('./assets/images/identifiermappedevent.PNG'),
       projectName: "RAID Solicitation",
-      projectDesc: "As a stretch assignment, took on building a critical, event-driven feature in 5 days to updated RAID using AWS Lambda, SNS, and SQS. My involvement on stretched bandwidth was critical to meeting the release deadline. Worked quickly to implement an optimal solution to integrate a set of a brand new infrastructure, API endpoints, and database procedures with minimal risk to the existing system.",
+      projectDesc: "As a stretch assignment, took on building a critical, event-driven feature in 5 days to update RAID in data service using AWS Lambda, SNS, and SQS. Worked quickly to implement an optimal solution to integrate a set of a brand new infrastructure, API endpoints, and database procedures with minimal risk to the existing system.",
       projectDetails: [
         {
           impact: "Captured all new Rocket Account mapping and saves to Client Data Services.",
           subimpact: "Welcome experience, LCSS experience, and other UI experience depends on this feature.",
+        },
+        {
+          impact: "My involvement on stretched bandwidth was critical to meet the release deadline.",
         }
       ],
       footerLink: [
@@ -502,7 +506,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require('./assets/images/rmscli.PNG'),
+
       projectName: "Rocket CLI",
       projectDesc: "The RMS Command Line Interface (CLI) is a unified tool to build, develop, deploy, manage and maintain the RMS software cycle. With just one tool to download and configure, we can control multiple RMS services,  speed up development cycle, setup and deploy development environment, automate engineering processes and hard gate standards from the command line. With CLIs, we can easily mash-up multiple tools together to perform advanced tasks. They work well for admin tasks, power-user tasks and engineering tasks. Created an initial framework for a command-line tool to automate common tasks within the software development life cycle.",
       projectDetails: [
@@ -540,7 +544,6 @@ const achievementSection = {
       title: "Servicing Onboarding Program",
       subtitle:
       "In order to facilitate a hiring spree aimed at doubling the size of our team, I created a technical onboarding program for newly hired software engineers. This program was the first of its kind within our stream, and I owned its creation end-to-end, from idea to execution. The core of the program is a 7-day crash course, complete with many opportunities for hands-on practice. The crash course is followed by a hack week project where new hires can apply and showcase their skills. Finally, a customized growth plan is developed for each new hire, detailing what work and training they should undertake over the next 90 days to optimize their professional development and equip themselves with the skills they need to excel at the company. The program was wildly successful, efficiently onboarding 7 new engineers. It was highly well-received across the company, and the VP expressed a desire to implement it across the entire stream.",
-      image: require("./assets/images/codeInLogo.webp"),
       impacts: [
         {
           impact: "Will be the first Technical Onboarding Program for Servicing Stream.",
@@ -574,7 +577,6 @@ const achievementSection = {
       title: "SP Engineering All Hands",
       subtitle:
         "SP Engineering All Hands Meeting is an opportunity for all the engineers to come together and solve technical challenges, do design review of the critical features, attend tech talk, and most importantly learn from each other. It's a weekly meeting that I own, we use this as a platform to grow together. The goal of this meeting is to: ",
-      image: require("./assets/images/googleAssistantLogo.webp"),
       impacts: [
         {
           impact: "Increase our engineering productivity.",
@@ -603,7 +605,6 @@ const achievementSection = {
       title: "Mentorship",
       subtitle:
         "I've taken a strong interest in the mentorship of our engineers, making it one of my top priorities to facilitate their professional development in a wide variety of ways. I work hard to remove single points of failure whenever I can, whether it’s by training other engineers on complex processes or flows, or documentation of troubleshooting steps – gaining knowledge in these areas is important but passing it on is absolutely critical.  I am always looking for ways to improve the information sharing and knowledge level of my team and my train. I've introduced new code review strategies, explained design principles, and helped implement industry-level standards in our services. I've provided training in one-on-one sessions to most of our engineers and consistently made myself available to provide technical guidance. My mentorship has been essential in equipping our engineers with the knowledge they need to do their best work as efficiently as possible, empowering them to achieve their full potential and contributing enormously to the success of all our most crucial features and initiatives.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
       impacts: [
         {
           impact: "Increase our engineering productivity.",
@@ -623,7 +624,6 @@ const achievementSection = {
       title: "Code Review Process",
       subtitle:
         "Code reviews suffered from a few key issues. Engineers did not know who to reach out too for reviews, engineers would rubber stamp/approve pull requests, and engineers provided no context within their pull requests. Revamped the code review process by integrating our code repositories with GitHub Pull Request templates and Codeowner features.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
       impacts: [
         {
           impact: "Enforced automated collaboration among engineers.",
@@ -649,7 +649,6 @@ const achievementSection = {
       title: "Revised SP Interview Process",
       subtitle:
         "Contributed in creating a comprehensive interview process from scratch, incorporating team feedback, industry practices, and my own personal experience working at two industry-leading tech companies. The new interview process allowed our team to scale and be efficient amidst a hiring-spree along with limiting bias through detailed guidelines and procedures. I also created unique, experience-based interview questions for the our question bank not available anywhere else in the industry. I also lead the interview panel from the technical side.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
       impacts: [
         {
           impact: "We conducted 30+ interviews over a span of only 6 months, and we hired 10 engineers.",
@@ -669,7 +668,6 @@ const achievementSection = {
       title: "Release Strategy Enhancement",
       subtitle:
         "I collaboratively led an initiative to re-vamp the release strategy to build on CI/CD principles. Releases, which traditionally involved a long-lived, dedicated release branch, were complex and inefficient, with difficulties in tracking merge commits and repetitive work between master and release branches. My work in defining a new strategy involving on-demand releases and release-patches, along with a dedicated naming convention, was instrumental in streamlining and simplifying the release process. I also created guidelines for hot-fixes based on the industry’s best practices and my past experience. The creation of these robust practices allowed for less disruption and wasted resources at the time of releases.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
       impacts: [
         {
           impact: "Increase our engineering productivity.",
@@ -695,7 +693,6 @@ const achievementSection = {
       title: "Project Bettong (On Going)",
       subtitle:
         "Built a process to integrate data-driven decisions and KPI metrics for executional efficiency. The new process improved operation efficiency, sped up engineering velocity, reduced development & testing costs, and resolved communication issues. Bridged the gap in business/domain knowledge resulting in increased ownership, dedicated hand-offs, and process improvements for extraneous work encountered. I have conducted multiple RCCA's under this process to figure out the issues in our process and create an action plan on top of the data.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
       impacts: [
         {
           impact: "Tools for evaluating current process and identifying areas for improvement.",
@@ -727,10 +724,22 @@ const blogSection = {
         "In order to facilitate a hiring spree aimed at doubling the size of our team, I created a technical onboarding program for newly hired software engineers. This program was the first of its kind within our stream, and I owned its creation end-to-end, from idea to execution. The core of the program is a 7-day crash course, complete with many opportunities for hands-on practice. The crash course is followed by a hack week project where new hires can apply and showcase their skills. Finally, a customized growth plan is developed for each new hire, detailing what work and training they should undertake over the next 90 days to optimize their professional development and equip themselves with the skills they need to excel at the company. The program was wildly successful, efficiently onboarding 7 new engineers. It was highly well-received across the company, and the VP expressed a desire to implement it across the entire stream."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://confluence/x/B4vDDg",
+      title: "Code Sherpas",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "The Gatekeeper or Code Sherpas is responsible to monitor the continuous integration pipeline with the engineering process, NFRs, engineering standards and ownership of the code. React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+    },
+    {
+      url: "https://confluence/x/LIqwDg",
+      title: "Code Review Process",
+      description:
+        "Our current code ownership policies and permissions are premature to enforce accountability in maintaining a healthy codebase. In order to achieve this goal, we need to streamline our git permissions. We will be using the Code Review Assignment feature of GitHub. We will be changing the permission structure of each TM in this exercise."
+    },
+    {
+      url: "https://confluence/x/CYvDDg",
+      title: "Stylecop - So Stylish!! Clean Code",
+      description:
+        "StyleCop analyzes C# source code to enforce a set of style and consistency rules. StyleCop used to be a Visual Studio plugin and a NuGet package. You can still use this in Visual Studio 2019, but the current recommended way to use StyleCop is to use the Roslyn-based analyzers."
     },
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
@@ -739,23 +748,65 @@ const blogSection = {
         "In order to facilitate a hiring spree aimed at doubling the size of our team, I created a technical onboarding program for newly hired software engineers. This program was the first of its kind within our stream, and I owned its creation end-to-end, from idea to execution. The core of the program is a 7-day crash course, complete with many opportunities for hands-on practice. The crash course is followed by a hack week project where new hires can apply and showcase their skills. Finally, a customized growth plan is developed for each new hire, detailing what work and training they should undertake over the next 90 days to optimize their professional development and equip themselves with the skills they need to excel at the company. The program was wildly successful, efficiently onboarding 7 new engineers. It was highly well-received across the company, and the VP expressed a desire to implement it across the entire stream."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://confluence/x/pZmvDw",
+      title: "Servicing Microservices Chassis",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "A set of reusable components that address cross cutting concerns, enabling implementation teams to develop production-grade microservices with increased velocity and focus solely on coding main service logic."
     },
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "SWE Onboarding Program",
+      url: "https://confluence/x/1gwQDw",
+      title: "SP Interview Process Guide",
       description:
-        "In order to facilitate a hiring spree aimed at doubling the size of our team, I created a technical onboarding program for newly hired software engineers. This program was the first of its kind within our stream, and I owned its creation end-to-end, from idea to execution. The core of the program is a 7-day crash course, complete with many opportunities for hands-on practice. The crash course is followed by a hack week project where new hires can apply and showcase their skills. Finally, a customized growth plan is developed for each new hire, detailing what work and training they should undertake over the next 90 days to optimize their professional development and equip themselves with the skills they need to excel at the company. The program was wildly successful, efficiently onboarding 7 new engineers. It was highly well-received across the company, and the VP expressed a desire to implement it across the entire stream."
+        "A set of protocol to be followed while conducting a technical interview of Software Engineers. We need to follow a structure to have unbiased interview."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://confluence/x/1gwQDw",
+      title: "Exception Handling",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
+        "A set of protocol to be followed while conducting a technical interview of Software Engineers. We need to follow a structure to have unbiased interview."
+    },
+    {
+      url: "https://confluence/x/1gwQDw",
+      title: "Memory Profiling in .NET",
+      description:
+        "A set of protocol to be followed while conducting a technical interview of Software Engineers. We need to follow a structure to have unbiased interview."
+    },
+    {
+      url: "https://confluence/x/1gwQDw",
+      title: "SOLID",
+      description:
+        "A set of protocol to be followed while conducting a technical interview of Software Engineers. We need to follow a structure to have unbiased interview."
+    },   
+    {
+      url: "https://confluence/x/1gwQDw",
+      title: "Microservices Testing Techniques",
+      description:
+        "A set of protocol to be followed while conducting a technical interview of Software Engineers. We need to follow a structure to have unbiased interview."
+    },   
+    {
+      url: "https://confluence/x/1gwQDw",
+      title: "Servicing Git Hooks Guide",
+      description:
+        "A set of protocol to be followed while conducting a technical interview of Software Engineers. We need to follow a structure to have unbiased interview."
+    },   
+    {
+      url: "https://confluence/x/gZbFDw",
+      title: "System Testing",
+      description:
+        "A set of protocol to be followed while conducting a technical interview of Software Engineers. We need to follow a structure to have unbiased interview."
+    },
+    {
+      url: "https://confluence/x/LgrvDw",
+      title: "Release Branching Strategy",
+      description:
+        "A set of protocol to be followed while conducting a technical interview of Software Engineers. We need to follow a structure to have unbiased interview."
+    },
+    {
+      url: "https://confluence/x/LgrvDw",
+      title: "Automated Prod Push Documementation",
+      description:
+        "A set of protocol to be followed while conducting a technical interview of Software Engineers. We need to follow a structure to have unbiased interview."
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -834,6 +885,38 @@ const talkSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
+const feedback = {
+  title: "Technical Excellence",
+  subtitle: "I always push both myself, and our entire train, to be the best we can be, and I never back down from a challenge. Here's some feedback I have received in Drive reviews:",
+  projects: [
+    "Abhishek brings a wealth of experience and knowledge to the table, not only strengthening our release train's skill set, but also mentoring other engineers on the team. He has a strong voice in the leadership group, championing updating our processes to be more automated and more efficient. He does not allow cutting corners, so we don't introduce more tech debt into our system. He has a great attitude and is very personable.",
+    "Abhishek has been a voice that I believe our engineering team has needed for quite some time. I honestly wish he was around during our initial rewrite of the application. I don't think I have seen another engineer come onto a team and take such initiative right away.",
+    "His values and experience will carry across our train in a very positive way. I think any engineer who has the opportunity to work with him will benefit from this. I also think our leadership and platform as a whole should listen and learn to suggestions he may have as they are always forward thinking.",
+    "Abhishek is one of the technical leaders for the train.  He is always looking for ways to make our tech better.  He stays abreast of new techniques and technologies to make sure we are engineering with an eye on the future.",
+    "Abhishek is one the best engineers on our train.  He has built an onboarding program for new engineers that will get leveraged across the stream.  He has done excellent work for us and is always up for any challenge. He is a joy to work with and I learn something from him at every exchange.",
+    "Abhishek took little time becoming a thought leader on our train. His impact on our younger engineers and their technical and interpersonal growth cannot be understated. In the few short months that he's been here he's taken the initiative and assumed the responsibility of a Senior Software Engineer from both a technical and a leadership standpoint.",
+    "He poses a blend of technical mastery and leadership competency required to excel in the role.  Abhishek continuously looks to improve both himself and the team by investing time during and outside of work learning about new concepts and processes that might aid in that endeavor.  Abhishek goals and values reflect a thoughtful engineer looking for meaning in his work.  His approach with his peers and younger engineers alike allow him to explore those goals as he sees fit.  He would undoubtedly be successful at the next level if he choose to pursue it in the future.",
+    "Abhishek has been a very good addition to RMS family. He has been driving RMS train towards a dream of complete CICD with initiatives like improvement of Quality process, involvement in enabling front-end unit testing, enforcing best practices during code reviews, logging standards in API's, providing feedback on processes (technical and non-technical) that RMS has been following to date, etc.",
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+const growthopportunity = {
+  display: true,
+  title: "My Growth Opportunities",
+  subtitle: "I'm not perfect, and I believe in painting the whole picture. I prefer for my actions and output to speak for themselves. But despite all the good stuff presented above, I still recognize opportunities for improvement.",
+  opportunities : [
+    {
+      heading: emoji("⚡ FOC Wide Participation - "),
+      details: "My current contributions are mainly focused on train level or stream level. I need to take my step forward and expand my contributions to the FOC level. I am planning to take participatation FOC wide groups and FOC wide activities like Tech Con etc. ",
+    },
+    {
+      heading:  emoji("⚡ Capacity Boundaries - Sometimes I take too many responsibility beyond the limitation. This can create circumstances that might not allow me to invest the desired amount of time to interact with team members as I'd like. From past few months, I have been working on delegating work to other Engineers and Team Leaders but stil  "),
+      details: "",
+    }
+  ]
+}
+
 // Podcast Section
 
 const podcastSection = {
@@ -875,6 +958,8 @@ export {
   achievementSection,
   blogSection,
   talkSection,
+  feedback,
+  growthopportunity,
   podcastSection,
   contactInfo,
   twitterDetails
