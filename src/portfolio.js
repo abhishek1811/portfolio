@@ -904,10 +904,10 @@ const feedback = {
 const growthopportunity = {
   display: true,
   title: "My Growth Opportunities",
-  subtitle: "I'm not perfect, and I believe in painting the whole picture. I prefer for my actions and output to speak for themselves. But despite all the good stuff presented above, I still recognize opportunities for improvement.",
+  subtitle: "",
   opportunities : [
     {
-      heading: emoji("⚡ FOC Wide Participation - "),
+      heading: emoji("⚡ FOC Wide Participation - I'm not perfect, and I believe in painting the whole picture. I prefer for my actions and output to speak for themselves. But despite all the good stuff presented above, I still recognize opportunities for improvement."),
       details: "My current contributions are mainly focused on train level or stream level. I need to take my step forward and expand my contributions to the FOC level. I am planning to take participatation FOC wide groups and FOC wide activities like Tech Con etc. ",
     },
     {
