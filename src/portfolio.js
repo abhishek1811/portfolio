@@ -896,6 +896,7 @@ const feedback = {
     "Abhishek is one the best engineers on our train.  He has built an onboarding program for new engineers that will get leveraged across the stream.  He has done excellent work for us and is always up for any challenge. He is a joy to work with and I learn something from him at every exchange.",
     "Abhishek took little time becoming a thought leader on our train. His impact on our younger engineers and their technical and interpersonal growth cannot be understated. In the few short months that he's been here he's taken the initiative and assumed the responsibility of a Senior Software Engineer from both a technical and a leadership standpoint.",
     "He poses a blend of technical mastery and leadership competency required to excel in the role.  Abhishek continuously looks to improve both himself and the team by investing time during and outside of work learning about new concepts and processes that might aid in that endeavor.  Abhishek goals and values reflect a thoughtful engineer looking for meaning in his work.  His approach with his peers and younger engineers alike allow him to explore those goals as he sees fit.  He would undoubtedly be successful at the next level if he choose to pursue it in the future.",
+    "Over the last few months since Abhishek joined the team, he has presented ideas for improvement, not only on our team, but our entire stream and platform. He has also filled in as architect while ours is OOO and has don a great job digging in and understanding the process to provide tangible solutions.",
     "Abhishek has been a very good addition to RMS family. He has been driving RMS train towards a dream of complete CICD with initiatives like improvement of Quality process, involvement in enabling front-end unit testing, enforcing best practices during code reviews, logging standards in API's, providing feedback on processes (technical and non-technical) that RMS has been following to date, etc.",
   ],
   display: true // Set false to hide this section, defaults to true
@@ -904,14 +905,14 @@ const feedback = {
 const growthopportunity = {
   display: true,
   title: "My Growth Opportunities",
-  subtitle: "",
+  subtitle: "I'm not perfect, and I believe in painting the whole picture. I prefer for my actions and output to speak for themselves. But despite all the good stuff presented above, I still recognize opportunities for improvement.",
   opportunities : [
     {
-      heading: emoji("⚡ FOC Wide Participation - I'm not perfect, and I believe in painting the whole picture. I prefer for my actions and output to speak for themselves. But despite all the good stuff presented above, I still recognize opportunities for improvement."),
-      details: "My current contributions are mainly focused on train level or stream level. I need to take my step forward and expand my contributions to the FOC level. I am planning to take participatation FOC wide groups and FOC wide activities like Tech Con etc. ",
+      heading: emoji("⚡ FOC Wide Participation - My current contributions are mainly focused on train level or stream level. I need to take my step forward and expand my contributions to the FOC level. I am planning to take participatation FOC wide groups and FOC wide activities like Tech Con etc. "),
+      details: "",
     },
     {
-      heading:  emoji("⚡ Capacity Boundaries - Sometimes I take too many responsibility beyond the limitation. This can create circumstances that might not allow me to invest the desired amount of time to interact with team members as I'd like. From past few months, I have been working on delegating work to other Engineers and Team Leaders but stil  "),
+      heading:  emoji("⚡ Capacity Boundaries - Sometimes I take too many responsibility beyond the limitation. This can create circumstances that might not allow me to invest the desired amount of time to interact with team members as I'd like. From past few months, I have been working on delegating work to other Engineers and Team Leaders. I still believe I need to grow in this area."),
       details: "",
     }
   ]
