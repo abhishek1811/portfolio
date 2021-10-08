@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.35216fc3.chunk.css",
-    "main.js": "/portfolio/static/js/main.5ceb9030.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.5ceb9030.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.006db1a6.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.006db1a6.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.0b03efdf.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.0b03efdf.js.map",
     "static/js/2.495966d3.chunk.js": "/portfolio/static/js/2.495966d3.chunk.js",
@@ -14,18 +14,18 @@
     "static/js/4.fa39c058.chunk.js": "/portfolio/static/js/4.fa39c058.chunk.js",
     "static/js/4.fa39c058.chunk.js.map": "/portfolio/static/js/4.fa39c058.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.eb0128e5eaf4cde1e6ff64069a6e4877.js": "/portfolio/precache-manifest.eb0128e5eaf4cde1e6ff64069a6e4877.js",
+    "precache-manifest.cb12331aa5e72dd18644eb6c3db8980e.js": "/portfolio/precache-manifest.cb12331aa5e72dd18644eb6c3db8980e.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/3.25727338.chunk.css.map": "/portfolio/static/css/3.25727338.chunk.css.map",
     "static/css/4.a8329f31.chunk.css.map": "/portfolio/static/css/4.a8329f31.chunk.css.map",
     "static/css/main.35216fc3.chunk.css.map": "/portfolio/static/css/main.35216fc3.chunk.css.map",
     "static/js/2.495966d3.chunk.js.LICENSE.txt": "/portfolio/static/js/2.495966d3.chunk.js.LICENSE.txt",
     "static/media/index.css": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf",
-    "static/media/_earltestframework.PNG": "/portfolio/static/media/_earltestframework.64fadea9.PNG",
     "static/media/airbnbLogo.png": "/portfolio/static/media/airbnbLogo.c59720d6.png",
     "static/media/contactMailDark.svg": "/portfolio/static/media/contactMailDark.51cf7192.svg",
     "static/media/dataservices.PNG": "/portfolio/static/media/dataservices.33bc5ceb.PNG",
     "static/media/developerActivity.svg": "/portfolio/static/media/developerActivity.59389695.svg",
+    "static/media/earltestframework.PNG": "/portfolio/static/media/earltestframework.64fadea9.PNG",
     "static/media/engineeringmodernization.PNG": "/portfolio/static/media/engineeringmodernization.d66bd29b.PNG",
     "static/media/githooks.PNG": "/portfolio/static/media/githooks.73c72725.PNG",
     "static/media/juitlogo.png": "/portfolio/static/media/juitlogo.48a1a45d.png",
@@ -41,6 +41,6 @@
     "static/js/runtime-main.0b03efdf.js",
     "static/js/2.495966d3.chunk.js",
     "static/css/main.35216fc3.chunk.css",
-    "static/js/main.5ceb9030.chunk.js"
+    "static/js/main.006db1a6.chunk.js"
   ]
 }
