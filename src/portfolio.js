@@ -371,7 +371,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require('./assets/images/_earltestframework.PNG'),
+      image: require('./assets/images/earltestframework.PNG'),
       projectName: "Earl Test Framework",
       projectDesc: "Developing an effective, user-friendly platform for automating a wide range of industry level testing strategies under a unified framework, with the goal of eventual transition to a full CI/CD pipeline. The goal of this project is to have integration test, component test and e2e service test on top of common foundation. Earl uses microservices testing strategies to create infrastructure services in dev environment using docker API.",
       projectDetails: [
