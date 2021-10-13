@@ -26,8 +26,7 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/abhishek1811",
-  linkedin: "https://www.linkedin.com/in/abhishek1811/",
+  github: "https://git.rockfin.com/apanesar",
   gmail: "asp.abhi18@gmail.com",
   display: true // Set true to display this section, defaults to false
 };
@@ -37,7 +36,7 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "My Motivation",
   goalTitle: "What I do?",
-  subTitle: "Throughout my career, I've demonstrated a deep-seated drive to take on new challenges and exceed expectations in every role I've taken on. I derive great fulfillment from bringing out the best in myself and the people around me, leveraging our collective skills to create tangible value for the customer. My leadership style reflects a passion for working with people and a holistic vision for how to best address our industry's most pressing technological challenges.",
+  subTitle: "Throughout my career, I've demonstrated a deep-seated drive to take on new challenges and exceed expectations in every role I've taken on. I relish helping people around me. I derive great fulfillment from bringing out the best in myself and the people around me, leveraging our collective skills to create tangible value for the customer. My leadership style reflects a passion for working with people and a holistic vision for how to best address our industry's most pressing technological challenges.",
   skills: [
     emoji(
       "⚡ Develop and design robust distributed applications."
@@ -546,7 +545,10 @@ const achievementSection = {
       "In order to facilitate a hiring spree aimed at doubling the size of our team, I created a technical onboarding program for newly hired software engineers. This program was the first of its kind within our stream, and I owned its creation end-to-end, from idea to execution. The core of the program is a 7-day crash course, complete with many opportunities for hands-on practice. The crash course is followed by a hack week project where new hires can apply and showcase their skills. Finally, a customized growth plan is developed for each new hire, detailing what work and training they should undertake over the next 90 days to optimize their professional development and equip themselves with the skills they need to excel at the company. The program was wildly successful, efficiently onboarding 7 new engineers. It was highly well-received across the company, and the VP expressed a desire to implement it across the entire stream.",
       impacts: [
         {
-          impact: "Will be the first Technical Onboarding Program for Servicing Stream.",
+          impact: "The first Technical Onboarding Program for Servicing Stream.",
+        },
+        {
+          impact: "Will be used by Rocket Tech Onboarding Team for onboarding new engineers. ",
         },
         {
           impact: "Reduced team member acclimation time from 3 months to less than a month.",
@@ -561,16 +563,12 @@ const achievementSection = {
       footerLink: [
         {
           name: "Documentation",
-          url: "https://git.rockfin.com/Servicing/SP-Documentation/tree/master/docs/Onboarding"
+          url: "https://git.rockfin.com/Servicing/SP-Documentation/tree/master/SP-Documentation-Site/docs/Onboarding"
         },
         {
           name: "Recording Library",
           url: "https://foc.myskillo.com/#topic-632386"
         },
-        {
-          name: "Projects",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
       ]
     },
     {
@@ -597,7 +595,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Documentation",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          url: "https://git.rockfin.com/Servicing/SP-Documentation/blob/master/SP-Documentation-Site/docs/EngineeringAllHands/README.md"
         }
       ]
     },
@@ -607,10 +605,10 @@ const achievementSection = {
         "I've taken a strong interest in the mentorship of our engineers, making it one of my top priorities to facilitate their professional development in a wide variety of ways. I work hard to remove single points of failure whenever I can, whether it’s by training other engineers on complex processes or flows, or documentation of troubleshooting steps – gaining knowledge in these areas is important but passing it on is absolutely critical.  I am always looking for ways to improve the information sharing and knowledge level of my team and my train. I've introduced new code review strategies, explained design principles, and helped implement industry-level standards in our services. I've provided training in one-on-one sessions to most of our engineers and consistently made myself available to provide technical guidance. My mentorship has been essential in equipping our engineers with the knowledge they need to do their best work as efficiently as possible, empowering them to achieve their full potential and contributing enormously to the success of all our most crucial features and initiatives.",
       impacts: [
         {
-          impact: "Increase our engineering productivity.",
+          impact: "Working on improving train's engineering velocity.",
         },
         {
-          impact: "Currently mentoring more than 10 engineers.",
+          impact: "Currently mentoring more than 10 engineers on regular basis.",
         },
       ],
       footerLink: [
@@ -623,7 +621,7 @@ const achievementSection = {
     {
       title: "Code Review Process",
       subtitle:
-        "Code reviews suffered from a few key issues. Engineers did not know who to reach out too for reviews, engineers would rubber stamp/approve pull requests, and engineers provided no context within their pull requests. Revamped the code review process by integrating our code repositories with GitHub Pull Request templates and Codeowner features.",
+        "Code reviews suffered from a few key issues. Engineers did not know who to reach out too for reviews, engineers would rubber stamp/approve pull requests, and engineers provided no context within their pull requests. Last year, Josh Zook presented some facts on these issues as well. I took an initiative to address this concern and I revamped the code review process by integrating our code repositories with GitHub Pull Request templates, Code Review Assignment Protocol, Review practices and Codeowner features.",
       impacts: [
         {
           impact: "Enforced automated collaboration among engineers.",
@@ -640,15 +638,15 @@ const achievementSection = {
       ],
       footerLink: [
         {
-          name: "Documentation",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Josh Zook Presentation",
+          url: ""
         }
       ]
     },
     {
       title: "Revised SP Interview Process",
       subtitle:
-        "Contributed in creating a comprehensive interview process from scratch, incorporating team feedback, industry practices, and my own personal experience working at two industry-leading tech companies. The new interview process allowed our team to scale and be efficient amidst a hiring-spree along with limiting bias through detailed guidelines and procedures. I also created unique, experience-based interview questions for the our question bank not available anywhere else in the industry. I also lead the interview panel from the technical side.",
+        "Contributed in creating a comprehensive interview process from scratch, incorporating team feedback, industry practices, and my own personal experience working at two industry-leading tech companies. The new interview process allowed our team to scale and be efficient amidst a hiring-spree along with limiting bias through detailed guidelines and procedures. I also created unique, experience-based interview questions for the our question bank. I also lead the interview panel from the technical side.",
       impacts: [
         {
           impact: "We conducted 30+ interviews over a span of only 6 months, and we hired 10 engineers.",
