@@ -11,6 +11,7 @@ const illustration = {
 };
 
 const greeting = {
+  baseUrl: "https://abhishek1811.github.io/portfolio/",
   username: "ASP",
   title: "Hi All, I'm Abhishek",
   subTitle: emoji(
@@ -181,16 +182,16 @@ const workExperiences = {
       date: "May 2020 – Present",
     },
     {
-      role: "Member of Technical Staff Professional Lead (ATL)",
+      role: "Lead Member of Technical Staff (ATL)",
       company: "VMware, VMW Tunnel",
       companylogo: require("./assets/images/vmwlogo.png"),
-      date: "March 2019 – May 2020",
+      date: "March 2018 – May 2020",
     },
     {
       role: "Member of Technical Staff P2",
       company: "VMware, Email Management",
       companylogo: require("./assets/images/vmwlogo.png"),
-      date: "Feb 2016 –  March 2019",
+      date: "Feb 2016 –  March 2018",
     },
     {
       role: "Software Engineer",
@@ -199,13 +200,13 @@ const workExperiences = {
       date: "May 2015 - Dec 2015",
     },
     {
-      role: "Software WebMaster",
+      role: "Software Master",
       company: "University of Florida",
       companylogo: require("./assets/images/uflogo.png"),
       date: "Sept 2014 – Sept 2015",
     },
     {
-      role: "Software Engineer Intern",
+      role: "Jr Software Engineer",
       company: "E-Prof Learning Solutions",
       companylogo: require("./assets/images/airbnbLogo.png"),
       date: "2012 – 2013",
@@ -255,7 +256,7 @@ const bigProjects = {
     },
     {
       image: require('./assets/images/dataservices.PNG'),
-      projectName: "Data Services (Client Data)",
+      projectName: "Data Services",
       projectDesc: "Our train has a goal to create scalable cloud based source of truth for servicing data, organized by entity and can be updated in real time. I contributed to the architecture, engineering implementation, design patterns and testing of the vision. Provided technical guidance to engineers across the entire train and executed a comprehensive [engineering plan](https://confluence/x/po1GE), owning the delivery of project to completion. Addressed the most complicated challenges hands on, in order to free up the resources to meet deadline. Introduced new tech libraries and industry level standards like AutoMapper, Fluent Validations, Transactional APIs, API Centric Exception Handling and resiliency patterns.",
       projectDetails: [
         {
@@ -268,6 +269,10 @@ const bigProjects = {
         },
         {
           impact: "Laid the foundation for the API service template.",
+          subimpact: "Reducing the development cost to rebuild things on the fly.",
+        },
+        {
+          impact: "Major contribution in the architecture and software design of the system.",
           subimpact: "Reducing the development cost to rebuild things on the fly.",
         }
       ],
@@ -398,7 +403,7 @@ const bigProjects = {
     },
     {
       image: require('./assets/images/microservicechasis.PNG'),
-      projectName: "Servicing Microservices Framework(On Going)",
+      projectName: "Servicing Microservices Framework(In Progress)",
       projectDesc: "Contributing to a stream wide goal along with Staffs to design and implement a comprehensive framework for developing production-grade APIs, substantially reducing the time taken by engineers. Standardized the implementation of best practices for API development, providing a centralized support system that’s globally available, compatible across all platform and  addresses cross-cutting concerns (e.g. Traceability, Metrics, Logging, HTTP Clients, Service Connector). This will also help us to have global consistency and maintaince support across Servicing.",
       projectDetails: [
         {
@@ -649,7 +654,7 @@ const achievementSection = {
         "Contributed in creating a comprehensive interview process from scratch, incorporating team feedback, industry practices, and my own personal experience working at two industry-leading tech companies. The new interview process allowed our team to scale and be efficient amidst a hiring-spree along with limiting bias through detailed guidelines and procedures. I also created unique, experience-based interview questions for the our question bank. I also lead the interview panel from the technical side.",
       impacts: [
         {
-          impact: "We conducted 30+ interviews over a span of only 6 months, and we hired 10 engineers.",
+          impact: "We conducted 50+ interviews over a span of only 6 months, and we hired 15 engineers.",
         },
         {
           impact: "Framework will be used to double our team in next year.",
@@ -688,7 +693,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Project Bettong (On Going)",
+      title: "Project Bettong",
       subtitle:
         "Built a process to integrate data-driven decisions and KPI metrics for executional efficiency. The new process improved operation efficiency, sped up engineering velocity, reduced development & testing costs, and resolved communication issues. Bridged the gap in business/domain knowledge resulting in increased ownership, dedicated hand-offs, and process improvements for extraneous work encountered. I have conducted multiple RCCA's under this process to figure out the issues in our process and create an action plan on top of the data.",
       impacts: [
