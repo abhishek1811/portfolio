@@ -15,7 +15,7 @@ const greeting = {
   username: "ASP",
   title: "Hi All, I'm Abhishek",
   subTitle: emoji(
-    "I’ve been working as an active Staff Software Engineer on the Servicing Platform Train for the past 10 months, playing an integral role in driving engineering execution, implementing new technologies to solve complex problems, and mentoring our engineers. I started at FOC as a Senior Software Engineer last year, working up to my current position by proactively seeking ways to contribute to the company’s success and leveraging my 9+ years of production-grade software development experience. Proud graduate of University of Florida, I am currently living in the North Atlanta area with my wife Sakshi. My family is from India, where I grew up and lived until I immigrated to the US in 2013. In my free time, I enjoy meditating, hiking, reading and playing music."
+    "I’ve been working as an active Staff Software Engineer on the Servicing Platform Train for the past 10 months, playing an integral role in driving engineering execution, implementing new technologies to solve complex problems, and mentoring our engineers. I started at FOC as a Senior Software Engineer last year, working up to my current position by proactively seeking ways to contribute to the company’s success and leveraging my 9+ years of production-grade software development experience. A proud graduate of University of Florida, I am currently living in the North Atlanta area with my wife Sakshi. My family is from India, where I grew up and lived until I immigrated to the US in 2013. In my free time, I enjoy meditating, hiking, reading and playing music."
     
     
   ),
@@ -37,12 +37,12 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "My Motivation",
   goalTitle: "What I do?",
-  subTitle: "Throughout my career, I've demonstrated a deep-seated drive to take on new challenges and exceed expectations in every role I've taken on. I relish helping people around me. I derive great fulfillment from bringing out the best in myself and the people around me, leveraging our collective skills to create tangible value for the customer. My leadership style reflects a passion for working with people and a holistic vision for how to best address our industry's most pressing technological challenges.",
+  subTitle: "Throughout my career, I've demonstrated a deep-seated drive to take on new challenges and exceed expectations in every role I've taken on. I relish helping people around me. I derive great fulfillment from bringing out the best in myself and the others, leveraging our collective skills to create tangible value for the customer. My leadership style reflects a passion for working with people and a holistic vision for how to best address our industry's most pressing technological challenges. Think globally apply locally!",
   skills: [
     emoji(
       "⚡ Develop and design robust distributed applications."
     ),
-    emoji("⚡ Improvise the engineering culture of my train."),
+    emoji("⚡ Improved the engineering culture of my train."),
     emoji(
       "⚡ Mentorship, Engineering Guidance and Technical Leadership. "
     ),
@@ -50,7 +50,7 @@ const skillsSection = {
       "⚡ Lead technical initiatives for my train."
     ),
     emoji(
-      "⚡ Solves critical challenges, performance and memory leak issues for the train."
+      "⚡ Solve critical challenges, performance and memory leak issues for the train."
     )
   ],
 
@@ -136,7 +136,7 @@ const educationInfo = {
       duration: "2010",
       desc: "",
       descBullets: [
-        "Took courses about Software Engineering, Distributed System, Operating Systems, Algorithms etc.",
+        "Took courses about Software Engineering, Distributed Systems, Database Systems, Algorithms etc.",
       ]
     }
   ]
@@ -148,7 +148,7 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     emoji(
-        "⚡ Created and executed stream's first Technical Onboarding Program"
+        "⚡ Created and executed stream's first Technical Onboarding Program."
       ),    
     emoji(
         "⚡ Major contribution in leading our train in CI/CD initiative."
@@ -157,7 +157,7 @@ const techStack = {
         "⚡ Solved multiple criticial performance issues, network pool issues and memory issues."
     ),
     emoji(
-      "⚡ Improvised the code reviews process e2e, leading a 48% increase in the code review colloboration."
+      "⚡ Improved the code reviews process end to end, leading to a 48% increase in the code review colloboration."
     ),
     emoji(
       "⚡ Fundamentally changed or created several engineering processes and standards within the train."
@@ -225,10 +225,10 @@ const openSource = {
 
 const bigProjects = {
   title: "Technical Projects",
-  subtitle: "SOME OF MY TECHNICAL CONTRIBUTION IN THE LAST YEAR.",
+  subtitle: "SOME OF MY TECHNICAL CONTRIBUTIONS IN THE LAST YEAR.",
   projects: [
     {
-      image: require('./assets/images/githooks.PNG'),
+      image: require('./assets/images/git.PNG'),
       projectName: "Servicing Git Hooks",
       projectDesc: "Pioneered the implementation of Git Hooks into the Servicing stream to track production delivery, thereby improving visibility into the company and enabling audits of all the work going into main branch. This was vital in upholding the release health, quality assurance and development standards in our deployments. Opened up the platform for SDLC automation, allowing for substantial improvements to the quality and efficiency of development processes. Established pre-flight validation jobs, which are essential for creating effective CI/CD pipelines. Standardized commit message template to guarantee our ability to audit changes going into production.",
       projectDetails: [
@@ -256,7 +256,7 @@ const bigProjects = {
     {
       image: require('./assets/images/dataservices.PNG'),
       projectName: "Data Services",
-      projectDesc: "Our train has a goal to create scalable cloud based source of truth for servicing data, organized by entity and can be updated in real time. I contributed to the architecture, engineering implementation, design patterns and testing of the vision. Provided technical guidance to engineers across the entire train and executed a comprehensive [engineering plan](https://confluence/x/po1GE), owning the delivery of project to completion. Addressed the most complicated challenges hands on, in order to free up the resources to meet deadline. Introduced new tech libraries and industry level standards like AutoMapper, Fluent Validations, Transactional APIs, API Centric Exception Handling and resiliency patterns.",
+      projectDesc: "Our train has a goal to create a scalable, cloud-based source of truth for servicing data, organized by entity and can be updated in real time. I contributed to the architecture, engineering implementation, design patterns and testing of the vision. Provided technical guidance to engineers across the entire train and executed a comprehensive [engineering plan], owning the delivery of project to completion. Addressed the most complicated challenges hands on, in order to free up the resources to meet the deadline. Introduced new tech libraries and industry level standards like AutoMapper, Fluent Validations, Transactional APIs, API Centric Exception Handling and resiliency patterns.",
       projectDetails: [
         {
           impact: "Rapid turn around in project delivery.",
@@ -287,13 +287,17 @@ const bigProjects = {
           name: "Architecture",
           url: "https://confluence/plugins/gliffy/viewer.action?inline=false&pageId=245078357&attachmentId=263164578&name=ClientDataService-Phase1&version=3&ceoid=245078357&key=ITServicingArchitecture&lastPage=%2Fpages%2Fviewpage.action%3FpageId%3D245078357&imageUrl=%2Fdownload%2Fattachments%2F245078357%2FClientDataService-Phase1.png%3Fversion%3D3%26modificationDate%3D1610587174000%26api%3Dv2&gonUrl=%2Fdownload%2Fattachments%2F245078357%2FClientDataService-Phase1%3Fversion%3D3%26modificationDate%3D1610587174000%26api%3Dv2"
         },
+        {
+          name: "Engineering Plan",
+          url: "https://confluence/x/po1GE"
+        },
         //  you can add extra buttons here.
       ]
     },
     {
       image: require('./assets/images/engineeringmodernization.PNG'),
       projectName: "Engineering Modernization",
-      projectDesc: "As we are progressing towards becoming a seasoned train, there is strong need to bring control and direction in our engineering practices. This project is focused on streamlining our engineering practices and process by introducing control and direction, with the goal of improving the code review process, code quality and increasing accountability among engineers. Enforced hard-gate policies to ensure uniform quality standards for unit testing, logging, exception handling, etc. Improvised the code review process by pioneeing code sherpas, code review template, and assigment protocol. Conducted multiple presentations, learning sessions, and office hours to distribute knowledge surrounding a new process wtihin our delivery pipeline. Created thorough documentation for engineers to consume including instructions on how to install, use, test, and contribute.",
+      projectDesc: "As we are progressing towards becoming a seasoned train, there is strong need to bring control and direction in our engineering practices. This project is focused on streamlining our engineering practices and process by introducing control and direction, with the goal of improving the code review process, code quality and increasing accountability among engineers. Enforced hard-gate policies to ensure uniform quality standards for unit testing, security, best practices and exception handling, etc. Improved the code review process by pioneeing code sherpas, code review template, and assigment protocol. Conducted multiple presentations, learning sessions, and office hours to distribute knowledge surrounding a new process wtihin our delivery pipeline. Created thorough documentation for engineers to consume including instructions on how to install, use, test, and contribute.",
       projectDetails: [
         {
           impact: "Significantly reduces the development cost with consistent best practices.",
