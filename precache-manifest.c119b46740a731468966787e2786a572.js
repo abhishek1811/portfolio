@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6592281331d4cbec4811c5d8fe69b032",
+    "revision": "4b1cdf58a6c93819e4b4a1674d2ea1ae",
     "url": "/portfolio/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/4.a8329f31.chunk.css"
   },
   {
-    "revision": "140a5439234a48695107",
+    "revision": "1c14a9815e3652c5807c",
     "url": "/portfolio/static/css/main.35216fc3.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/4.fa39c058.chunk.js"
   },
   {
-    "revision": "140a5439234a48695107",
-    "url": "/portfolio/static/js/main.8a89759d.chunk.js"
+    "revision": "1c14a9815e3652c5807c",
+    "url": "/portfolio/static/js/main.581dd32a.chunk.js"
   },
   {
     "revision": "ed65086eeb657719e798",
