@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e2171bd626c4f66157d4cf40ddbdc47f",
+    "revision": "0f54de9cf0c97d7d262cf3a159294110",
     "url": "/portfolio/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/4.a8329f31.chunk.css"
   },
   {
-    "revision": "9789cb41a59fcd84c4c2",
+    "revision": "fe258b25975a3c7c740d",
     "url": "/portfolio/static/css/main.35216fc3.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/4.fa39c058.chunk.js"
   },
   {
-    "revision": "9789cb41a59fcd84c4c2",
-    "url": "/portfolio/static/js/main.d423dd23.chunk.js"
+    "revision": "fe258b25975a3c7c740d",
+    "url": "/portfolio/static/js/main.ab76959a.chunk.js"
   },
   {
     "revision": "ed65086eeb657719e798",
@@ -72,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/engineeringmodernization.d66bd29b.PNG"
   },
   {
-    "revision": "73c72725429c36d3c95ac54ac5ebda65",
-    "url": "/portfolio/static/media/githooks.73c72725.PNG"
+    "revision": "f35c3f3478dacbb388c5e41c8e67749a",
+    "url": "/portfolio/static/media/git.f35c3f34.PNG"
   },
   {
     "revision": "48a1a45dbf8bb5e6b73161e77a9fceb1",

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.35216fc3.chunk.css",
-    "main.js": "/portfolio/static/js/main.d423dd23.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.d423dd23.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.ab76959a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ab76959a.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.0b03efdf.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.0b03efdf.js.map",
     "static/js/2.495966d3.chunk.js": "/portfolio/static/js/2.495966d3.chunk.js",
@@ -14,7 +14,7 @@
     "static/js/4.fa39c058.chunk.js": "/portfolio/static/js/4.fa39c058.chunk.js",
     "static/js/4.fa39c058.chunk.js.map": "/portfolio/static/js/4.fa39c058.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.3f0a9997e3d8da653bc528099257f517.js": "/portfolio/precache-manifest.3f0a9997e3d8da653bc528099257f517.js",
+    "precache-manifest.eef4f182340d0ce9e083e2a5401c3c21.js": "/portfolio/precache-manifest.eef4f182340d0ce9e083e2a5401c3c21.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/3.25727338.chunk.css.map": "/portfolio/static/css/3.25727338.chunk.css.map",
     "static/css/4.a8329f31.chunk.css.map": "/portfolio/static/css/4.a8329f31.chunk.css.map",
@@ -27,7 +27,7 @@
     "static/media/developerActivity.svg": "/portfolio/static/media/developerActivity.59389695.svg",
     "static/media/earltestframework.PNG": "/portfolio/static/media/earltestframework.64fadea9.PNG",
     "static/media/engineeringmodernization.PNG": "/portfolio/static/media/engineeringmodernization.d66bd29b.PNG",
-    "static/media/githooks.PNG": "/portfolio/static/media/githooks.73c72725.PNG",
+    "static/media/git.PNG": "/portfolio/static/media/git.f35c3f34.PNG",
     "static/media/juitlogo.png": "/portfolio/static/media/juitlogo.48a1a45d.png",
     "static/media/manOnTable.svg": "/portfolio/static/media/manOnTable.52be3144.svg",
     "static/media/microservicechasis.PNG": "/portfolio/static/media/microservicechasis.41b7afe8.PNG",
@@ -41,6 +41,6 @@
     "static/js/runtime-main.0b03efdf.js",
     "static/js/2.495966d3.chunk.js",
     "static/css/main.35216fc3.chunk.css",
-    "static/js/main.d423dd23.chunk.js"
+    "static/js/main.ab76959a.chunk.js"
   ]
 }
