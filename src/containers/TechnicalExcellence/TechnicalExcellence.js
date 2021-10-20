@@ -11,7 +11,7 @@ export default function TechnicalExcellence() {
   }
   return (
     <Fade bottom duration={1000} distance="20px">
-      <div className="main" id="projects">
+      <div className="main" id="techexcellence">
         <div>
           <h1 className="project-title">{feedback.title}</h1>
           <p

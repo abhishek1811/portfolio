@@ -15,7 +15,7 @@ const greeting = {
   username: "ASP",
   title: "Hi All, I'm Abhishek",
   subTitle: emoji(
-    "I’ve been working as an active Staff Software Engineer on the Servicing Platform Train for the past 6 months, playing an integral role in driving engineering execution, implementing new technologies to solve complex problems, and mentoring our engineers. I started at FOC as a Senior Software Engineer last year, working up to my current position by proactively seeking ways to contribute to the company’s success and leveraging my 9 years of production-grade software development experience. Proud graduate of University of Florida, I am currently living in the North Atlanta area with my wife Sakshi. My family is from India, where I grew up and lived until I immigrated to the US in 2013. In my free time, I enjoy meditating, hiking, reading and playing music."
+    "I’ve been working as an active Staff Software Engineer on the Servicing Platform Train for the past 10 months, playing an integral role in driving engineering execution, implementing new technologies to solve complex problems, and mentoring our engineers. I started at FOC as a Senior Software Engineer last year, working up to my current position by proactively seeking ways to contribute to the company’s success and leveraging my 9+ years of production-grade software development experience. Proud graduate of University of Florida, I am currently living in the North Atlanta area with my wife Sakshi. My family is from India, where I grew up and lived until I immigrated to the US in 2013. In my free time, I enjoy meditating, hiking, reading and playing music."
     
     
   ),
@@ -137,7 +137,6 @@ const educationInfo = {
       desc: "",
       descBullets: [
         "Took courses about Software Engineering, Distributed System, Operating Systems, Algorithms etc.",
-        "Got certified in Java."
       ]
     }
   ]
@@ -152,19 +151,19 @@ const techStack = {
         "⚡ Created and executed stream's first Technical Onboarding Program"
       ),    
     emoji(
-        "⚡ Major contribution in leading our train to CI/CD initiative."
+        "⚡ Major contribution in leading our train in CI/CD initiative."
       ),
     emoji(
-        "⚡ Solved multiple criticial performance issues, network issues and memory issues."
+        "⚡ Solved multiple criticial performance issues, network pool issues and memory issues."
     ),
     emoji(
-      "⚡ Improvised the code reviews process e2e, leading a 28% increase in the code review colloboration."
+      "⚡ Improvised the code reviews process e2e, leading a 48% increase in the code review colloboration."
     ),
     emoji(
       "⚡ Fundamentally changed or created several engineering processes and standards within the train."
     ),
     emoji(
-      "⚡ Drove efforts to tune performance of the critical services."
+      "⚡ Drove efforts to tune performance of critical services."
     ),
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -182,13 +181,13 @@ const workExperiences = {
       date: "May 2020 – Present",
     },
     {
-      role: "Lead Member of Technical Staff (ATL)",
+      role: "Member of Technical Staff- Lead (ATL)",
       company: "VMware, VMW Tunnel",
       companylogo: require("./assets/images/vmwlogo.png"),
       date: "March 2018 – May 2020",
     },
     {
-      role: "Member of Technical Staff P2",
+      role: "Member of Technical Staff - L2",
       company: "VMware, Email Management",
       companylogo: require("./assets/images/vmwlogo.png"),
       date: "Feb 2016 –  March 2018",
@@ -200,13 +199,13 @@ const workExperiences = {
       date: "May 2015 - Dec 2015",
     },
     {
-      role: "Software Master",
+      role: "Software WebMaster",
       company: "University of Florida",
       companylogo: require("./assets/images/uflogo.png"),
       date: "Sept 2014 – Sept 2015",
     },
     {
-      role: "Jr Software Engineer",
+      role: "Software Engineer Intern",
       company: "E-Prof Learning Solutions",
       companylogo: require("./assets/images/airbnbLogo.png"),
       date: "2012 – 2013",
@@ -273,7 +272,6 @@ const bigProjects = {
         },
         {
           impact: "Major contribution in the architecture and software design of the system.",
-          subimpact: "Reducing the development cost to rebuild things on the fly.",
         }
       ],
       footerLink: [
@@ -295,7 +293,7 @@ const bigProjects = {
     {
       image: require('./assets/images/engineeringmodernization.PNG'),
       projectName: "Engineering Modernization",
-      projectDesc: "As we are progressing towards becoming a seasoned train, there is strong need to bring control and direction in our engineering practices. This project is focused on streamlining our engineering practices and process by introducing control and direction, with the goal of improving the code review process and increasing accountability among engineers. Enforced hard-gate policies to ensure uniform quality standards for unit testing, logging, exception handling, etc. Improvised the code review process by pioneeing code sherpas, code review template, and assigment protocol. Conducted multiple presentations, learning sessions, and office hours to distribute knowledge surrounding a new process wtihin our delivery pipeline. Created thorough documentation for engineers to consume including instructions on how to install, use, test, and contribute.",
+      projectDesc: "As we are progressing towards becoming a seasoned train, there is strong need to bring control and direction in our engineering practices. This project is focused on streamlining our engineering practices and process by introducing control and direction, with the goal of improving the code review process, code quality and increasing accountability among engineers. Enforced hard-gate policies to ensure uniform quality standards for unit testing, logging, exception handling, etc. Improvised the code review process by pioneeing code sherpas, code review template, and assigment protocol. Conducted multiple presentations, learning sessions, and office hours to distribute knowledge surrounding a new process wtihin our delivery pipeline. Created thorough documentation for engineers to consume including instructions on how to install, use, test, and contribute.",
       projectDetails: [
         {
           impact: "Significantly reduces the development cost with consistent best practices.",
@@ -383,7 +381,7 @@ const bigProjects = {
           impact: "Addresses the persistent lack of automation testing of Microservices.",
         },
         {
-          impact: "Effective testing techniques.",
+          impact: "Reduces development cost by  introducing all the required tool under same hood.",
         },
         {
           impact: "Enables rapid development of automated tests, accelerating reaching the goal of full CI/CD.",     
@@ -403,7 +401,7 @@ const bigProjects = {
     },
     {
       image: require('./assets/images/microservicechasis.PNG'),
-      projectName: "Servicing Microservices Framework(In Progress)",
+      projectName: "Servicing Microservices Framework(In Planning Phase)",
       projectDesc: "Contributing to a stream wide goal along with Staffs to design and implement a comprehensive framework for developing production-grade APIs, substantially reducing the time taken by engineers. Standardized the implementation of best practices for API development, providing a centralized support system that’s globally available, compatible across all platform and  addresses cross-cutting concerns (e.g. Traceability, Metrics, Logging, HTTP Clients, Service Connector). This will also help us to have global consistency and maintaince support across Servicing.",
       projectDetails: [
         {
@@ -559,9 +557,6 @@ const achievementSection = {
           impact: "Reduced team member acclimation time from 3 months to less than a month.",
         },
         {
-          impact: "Framework for onboarding that can potentially be implemented across the entire company.",
-        },
-        {
           impact: "Successfully onboarded of 7 new engineers and paved the way for onboarding 20 to 30 engineers over the next 6 months.",
         },
       ],
@@ -619,14 +614,52 @@ const achievementSection = {
       footerLink: [
         {
           name: "Feedback",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          url: ""
+        }
+      ]
+    },
+    {
+      title: "Engineering OKRs",
+      subtitle:
+      "Key initiator and driver of the Engineering OKRs for our train. Based on the data driven analysis, I figured out the key problems and road blocks in engineering execution. Created Train's Engineering OKRS and driving its execution. The main goal of this is to bring control and structure to the execution.",
+    impacts: [
+      {
+        impact: "Solving key source process problems of my train.",
+      },
+      {
+        impact: "Enforcing awareness and accountability in our execution.",
+      },
+    ],
+    footerLink: [
+      {
+        name: "Documentation",
+        url: "https://git.rockfin.com/Servicing/SP-Documentation/tree/master/SP-Documentation-Site/docs/LearningDayProgram#train-engineering-goals-coming-soon"
+      }
+    ]
+    },
+    {
+      title: "LDP - Learning Day Program",
+      subtitle:
+        "The learning day program is an incredible opportunity to continuously grow and extend our learning. This program is specifically designed and structured to provide for high-quality enrichment outside of the regular work that seamlessly aligns with our train goals and stream OKRs. We want to make sure that while developing great products for our clients, we are investing enough time in becoming a strong, well-rounded development team. Created this program and currently driving its execution.",
+      impacts: [
+        {
+          impact: "Working on improving train's engineering velocity.",
+        },
+        {
+          impact: "Increasing senior engineer/SME participation in train contribution and learning opportunities",
+        },
+      ],
+      footerLink: [
+        {
+          name: "Documentation",
+          url: "https://git.rockfin.com/Servicing/SP-Documentation/blob/master/SP-Documentation-Site/docs/LearningDayProgram/README.md"
         }
       ]
     },
     {
       title: "Code Review Process",
       subtitle:
-        "Code reviews suffered from a few key issues. Engineers did not know who to reach out too for reviews, engineers would rubber stamp/approve pull requests, and engineers provided no context within their pull requests. Last year, Josh Zook presented some facts on these issues as well. I took an initiative to address this concern and I revamped the code review process by integrating our code repositories with GitHub Pull Request templates, Code Review Assignment Protocol, Review practices and Codeowner features.",
+        "Code reviews suffered from a few key issues in our train. Engineers did not know who to reach out too for reviews, engineers would rubber stamp/approve pull requests, and engineers provided no context within their pull requests. Last year, Josh Zook presented some facts on these issues as well. I took an initiative to address this concern and I revamped the code review process by integrating our code repositories with GitHub Pull Request templates, Code Review Assignment Protocol, code review best practices and Codeowner features.",
       impacts: [
         {
           impact: "Enforced automated collaboration among engineers.",
@@ -673,22 +706,19 @@ const achievementSection = {
         "I collaboratively led an initiative to re-vamp the release strategy to build on CI/CD principles. Releases, which traditionally involved a long-lived, dedicated release branch, were complex and inefficient, with difficulties in tracking merge commits and repetitive work between master and release branches. My work in defining a new strategy involving on-demand releases and release-patches, along with a dedicated naming convention, was instrumental in streamlining and simplifying the release process. I also created guidelines for hot-fixes based on the industry’s best practices and my past experience. The creation of these robust practices allowed for less disruption and wasted resources at the time of releases.",
       impacts: [
         {
-          impact: "Increase our engineering productivity.",
+          impact: "Solved the release branch conflict mess issue.",
         },
         {
-          impact: "Solve complex challenges together.",
+          impact: "Created the base to invoke trunk based development.",
         },
         {
           impact: "Proactively build things in a right way.",
-        },
-        {
-          impact: "Encourage group learning (learn from each other).",
         },
       ],
       footerLink: [
         {
           name: "Documentation",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          url: "https://confluence/x/LgrvDw"
         }
       ]
     },
@@ -704,7 +734,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Documentation",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          url: "https://confluence/x/qJObDg"
         }
       ]
     }
@@ -717,7 +747,7 @@ const achievementSection = {
 const blogSection = {
   title: "Documentation",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.  Some of the documentation I wrote!",
 
   blogs: [
     {
@@ -745,12 +775,6 @@ const blogSection = {
         "StyleCop analyzes C# source code to enforce a set of style and consistency rules. StyleCop used to be a Visual Studio plugin and a NuGet package. You can still use this in Visual Studio 2019, but the current recommended way to use StyleCop is to use the Roslyn-based analyzers."
     },
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "SWE Onboarding Program",
-      description:
-        "In order to facilitate a hiring spree aimed at doubling the size of our team, I created a technical onboarding program for newly hired software engineers. This program was the first of its kind within our stream, and I owned its creation end-to-end, from idea to execution. The core of the program is a 7-day crash course, complete with many opportunities for hands-on practice. The crash course is followed by a hack week project where new hires can apply and showcase their skills. Finally, a customized growth plan is developed for each new hire, detailing what work and training they should undertake over the next 90 days to optimize their professional development and equip themselves with the skills they need to excel at the company. The program was wildly successful, efficiently onboarding 7 new engineers. It was highly well-received across the company, and the VP expressed a desire to implement it across the entire stream."
-    },
-    {
       url: "https://confluence/x/pZmvDw",
       title: "Servicing Microservices Chassis",
       description:
@@ -763,52 +787,46 @@ const blogSection = {
         "A set of protocol to be followed while conducting a technical interview of Software Engineers. We need to follow a structure to have unbiased interview."
     },
     {
-      url: "https://confluence/x/1gwQDw",
+      url: "https://git.rockfin.com/Servicing/SP-Documentation/blob/master/SP-Documentation-Site/docs/Standards/ExceptionHandling.md",
       title: "Exception Handling",
       description:
-        "A set of protocol to be followed while conducting a technical interview of Software Engineers. We need to follow a structure to have unbiased interview."
+        "As our applications grow, we want to adopt a manageable strategy for handling errors in order to keep the user’s experience consistent and more importantly, to provide us with means to troubleshoot and fix issues that occur."
     },
     {
-      url: "https://confluence/x/1gwQDw",
+      url: "https://git.rockfin.com/Servicing/SP-Documentation/blob/master/SP-Documentation-Site/docs/Blogs/MemoryProfilingNET.md",
       title: "Memory Profiling in .NET",
       description:
         "A set of protocol to be followed while conducting a technical interview of Software Engineers. We need to follow a structure to have unbiased interview."
-    },
+    }, 
     {
-      url: "https://confluence/x/1gwQDw",
-      title: "SOLID",
-      description:
-        "A set of protocol to be followed while conducting a technical interview of Software Engineers. We need to follow a structure to have unbiased interview."
-    },   
-    {
-      url: "https://confluence/x/1gwQDw",
+      url: "https://confluence/x/y4PFDw",
       title: "Microservices Testing Techniques",
       description:
-        "A set of protocol to be followed while conducting a technical interview of Software Engineers. We need to follow a structure to have unbiased interview."
+        "As soon as any small, safe change has been made to a microservice, the microservice can be deployed to production. But how do you know a change is safe? This is where testing and, particularly, test automation come into the picture."
     },   
     {
-      url: "https://confluence/x/1gwQDw",
+      url: "https://confluence/x/8IrDDg",
       title: "Servicing Git Hooks Guide",
       description:
-        "A set of protocol to be followed while conducting a technical interview of Software Engineers. We need to follow a structure to have unbiased interview."
+        "Git hooks are scripts that run automatically every time a particular event occurs in a Git repository. They let you customize Git’s internal behavior and trigger customizable actions at key points in the development life cycle."
     },   
     {
       url: "https://confluence/x/gZbFDw",
       title: "System Testing",
       description:
-        "A set of protocol to be followed while conducting a technical interview of Software Engineers. We need to follow a structure to have unbiased interview."
+        "End to End Tests or System Tests verifies that a system meets external requirements and achieves its goals, testing the entire system(sub system) from end to end."
     },
     {
       url: "https://confluence/x/LgrvDw",
       title: "Release Branching Strategy",
       description:
-        "A set of protocol to be followed while conducting a technical interview of Software Engineers. We need to follow a structure to have unbiased interview."
+        "The current release branch strategy involves a single, long-lived release branch. While the single release branch has been in use for several years, there are no clear advantages to this model"
     },
     {
-      url: "https://confluence/x/LgrvDw",
-      title: "Automated Prod Push Documementation",
+      url: "https://git.rockfin.com/Servicing/SP-Documentation/blob/master/SP-Documentation-Site/docs/Blogs/AutomatedProdPush.md",
+      title: "Automated Prod Push Documentation",
       description:
-        "A set of protocol to be followed while conducting a technical interview of Software Engineers. We need to follow a structure to have unbiased interview."
+        "We have a vision to automated the release push end to end with a control plane. This iniative is a step forward in that direction."
     },
   ],
   display: true // Set false to hide this section, defaults to true
@@ -819,84 +837,100 @@ const blogSection = {
 const talkSection = {
   title: "TALKS",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅."
   ),
 
   talks: [
     {
       title: "SP Engineer Onboarding Program",
       subtitle: "",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      slides_url: "https://git.rockfin.com/Servicing/SP-Documentation/tree/master/SP-Documentation-Site/docs/Onboarding",
+      event_url: "https://rockfin-my.sharepoint.com/:v:/r/personal/abhisheksinghpanesar_rocketmortgage_com/Documents/Recordings/Onboarding%20Program%20Intiation-20210614_161452-Meeting%20Recording.mp4?csf=1&web=1&e=WKeV2W"
     },
     {
       title: "Engineering Modernization",
       subtitle: "",
-      slides_url: "https://bit.ly/saadpasta-slides",
+      slides_url: "https://rockfin-my.sharepoint.com/:p:/g/personal/abhisheksinghpanesar_rocketmortgage_com/EfjMQYrKjUxGnmjeMkPjVjQB-vevGdesftjp6lXcuNKsTA?e=zi24F8",
+      event_url: "https://rockfin-my.sharepoint.com/:v:/r/personal/abhisheksinghpanesar_rocketmortgage_com/Documents/Recordings/EMS_%20Code%20Review%20Process%20Enhancements-20201125_110424-Meeting%20Recording.mp4?csf=1&web=1&e=vLZz2h"
     },
     {
       title: "Rocket CLI",
       subtitle: "",
-      slides_url: "https://bit.ly/saadpasta-slides",
+      slides_url: "https://rockfin-my.sharepoint.com/:p:/g/personal/abhisheksinghpanesar_rocketmortgage_com/EdXg5zsm4RRFprQWBq75SbgBUXYk2aGOrX_jnhYzIWJ4WA?e=dOiWqQ",
+      event_url: ""
     },
     {
       title: "HTTP Clients: Zero to Hero",
       subtitle: "",
-      slides_url: "https://bit.ly/saadpasta-slides",
+      slides_url: "https://rockfin-my.sharepoint.com/:v:/g/personal/abhisheksinghpanesar_quickenloans_com/EXKlh7DIJUJCj6oduG0rKh4BPSFNj8ACsH1V14eLaEj-uw",
     },
     {
       title: "Deadlock in Transactional APIs",
       subtitle: "",
-      slides_url: "https://bit.ly/saadpasta-slides",
+      slides_url: "https://rockfin-my.sharepoint.com/:p:/g/personal/abhisheksinghpanesar_rocketmortgage_com/Ea1i39Il3E1Jj5z6toUddc4BbpaxOAJKbmK78WfDlNh5Ww?e=R32Idi",
+      event_url: "https://rockfin-my.sharepoint.com/:v:/g/personal/aaronrudzki_quickenloans_com/ESB_Lm4OR2xMm2nrTzA2z1IBkVFVZOeLhY8QxFEXQ3dhtw",
     },
     {
       title: "5 Whys Analysis",
       subtitle: "",
-      slides_url: "https://bit.ly/saadpasta-slides",
+      slides_url: "https://rockfin-my.sharepoint.com/:p:/g/personal/abhisheksinghpanesar_rocketmortgage_com/EYhOdGhJo71AoHXm-udkQYQB71EZ6UiSA5RsCmh_7AjSHQ?e=AAvBj4",
+      event_url: "https://rockfin-my.sharepoint.com/:v:/g/personal/aaronrudzki_quickenloans_com/ESB_Lm4OR2xMm2nrTzA2z1IBkVFVZOeLhY8QxFEXQ3dhtw",
     },
     {
       title: "Experience API",
       subtitle: "",
-      slides_url: "https://bit.ly/saadpasta-slides",
+      slides_url: "https://rockfin-my.sharepoint.com/:p:/g/personal/abhisheksinghpanesar_rocketmortgage_com/EX4NXZgDhalIrVb0ila_CicB1OFNBmamGH4fOpFFdvpgqQ?e=Gk5sdF",
     },
     {
       title: "Code Sherpas",
       subtitle: "",
-      slides_url: "https://bit.ly/saadpasta-slides",
+      slides_url: "https://rockfin-my.sharepoint.com/:p:/g/personal/abhisheksinghpanesar_rocketmortgage_com/EcvpA-fN-PRJrlhrgkD4LH4BUZRsjCfE1cHKnkF4dN2WOw?e=FlAjfW",
     },
     {
-      title: "Git Basics",
+      title: "Git and Git CMD: Zero to Hero",
       subtitle: "",
-      slides_url: "https://bit.ly/saadpasta-slides",
-    },
-    {
-      title: "Git Advanced",
-      subtitle: "",
-      slides_url: "https://bit.ly/saadpasta-slides",
+      slides_url: "https://rockfin-my.sharepoint.com/:v:/g/personal/anjaliyadla_rocketmortgage_com/EaT7ix4G6FxEj1-30XqnCgoB_8885MkrDwIMyasExjT3XQ?e=hM5OPP",
     },
     {
       title: "CI/CD",
       subtitle: "",
-      slides_url: "https://bit.ly/saadpasta-slides",
+      event_url: "https://rockfin-my.sharepoint.com/personal/abhisheksinghpanesar_quickenloans_com/Documents/Recordings/%5BDay%206%20Workshop%201%5D%20Terraform%20Basics-20210719_130247-Meeting%20Recording.mp4?csf=1&web=1&e=Yc92fg&cid=4d884f61-9b3a-44c7-9ea2-0e965c106238",
     },
     {
       title: "Unit testing in .NET",
       subtitle: "",
-      slides_url: "https://bit.ly/saadpasta-slides",
+      slides_url: "https://rockfin-my.sharepoint.com/:v:/r/personal/matthewjoseph_rocketmortgage_com/Documents/Recordings/%5bDay%202%20-%20Workshop%201%5d%20Unit%20Testing%20Workshop-20210713_103248-Meeting%20Recording.mp4?csf=1&web=1&e=WVokgl",
+      event_url: "https://rockfin-my.sharepoint.com/:v:/g/personal/shivasaipraneethchakinala_rocketmortgage_com/ESg3-HSZdX9CuDhCT5WdST0BJxlmvAMuQeGU6Xxh1YQJ7A?e=LGb09q",
     },
+    {
+      title: "Know your Tech",
+
+      event_url: "https://rockfin-my.sharepoint.com/personal/carlosringer_rocketmortgage_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcarlosringer%5Frocketmortgage%5Fcom%2FDocuments%2FRecordings%2F%5BDay%2D1%20Workshop%202%5D%20%20Setup%20like%20a%20pro%2D20210712%5F171838%2DMeeting%20Recording%2Emp4&parent=%2Fpersonal%2Fcarlosringer%5Frocketmortgage%5Fcom%2FDocuments%2FRecordings",
+    },
+    {
+      title: "Git Hooks",
+      event_url: "https://rockfin-my.sharepoint.com/personal/abhisheksinghpanesar_rocketmortgage_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fabhisheksinghpanesar%5Frocketmortgage%5Fcom%2FDocuments%2FRecordings%2FMeeting%2D20210709%5F181612%2DMeeting%20Recording%2Emp4&parent=%2Fpersonal%2Fabhisheksinghpanesar%5Frocketmortgage%5Fcom%2FDocuments%2FRecordings",
+    },
+    {
+      title: "Web API: Basics",
+      subtitle: "",
+      event_url: "https://rockfin-my.sharepoint.com/personal/shivasaipraneethchakinala_rocketmortgage_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fshivasaipraneethchakinala%5Frocketmortgage%5Fcom%2FDocuments%2FRecordings%2F%5BDay%202%20Workshop%204%5D%20Understand%20your%20Development%20Tools%2D20210713%5F140438%2DMeeting%20Recording%2Emp4&parent=%2Fpersonal%2Fshivasaipraneethchakinala%5Frocketmortgage%5Fcom%2FDocuments%2FRecordings",
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
 
 const feedback = {
   title: "Technical Excellence",
-  subtitle: "I always push both myself, and our entire train, to be the best we can be, and I never back down from a challenge. Here's some feedback I have received in Drive reviews:",
+  subtitle: "I do my best to push myself, and our train. I like being challenge with technical and process problems. Here's some feedback I have received from Leaders and other Senior Engineer's in my Drive reviews:",
   projects: [
     "Abhishek brings a wealth of experience and knowledge to the table, not only strengthening our release train's skill set, but also mentoring other engineers on the team. He has a strong voice in the leadership group, championing updating our processes to be more automated and more efficient. He does not allow cutting corners, so we don't introduce more tech debt into our system. He has a great attitude and is very personable.",
     "Abhishek has been a voice that I believe our engineering team has needed for quite some time. I honestly wish he was around during our initial rewrite of the application. I don't think I have seen another engineer come onto a team and take such initiative right away.",
     "His values and experience will carry across our train in a very positive way. I think any engineer who has the opportunity to work with him will benefit from this. I also think our leadership and platform as a whole should listen and learn to suggestions he may have as they are always forward thinking.",
+    "Abhishek is a gifted engineer and he's at the top of his game.  He has entered the role of teacher to our less experienced engineers and it is showing all across the train.   Abhishek is our acting Staff Engineer and he has taken on that role so well that he will going up for AMAP to petition for the role permanently.",
     "Abhishek is one of the technical leaders for the train.  He is always looking for ways to make our tech better.  He stays abreast of new techniques and technologies to make sure we are engineering with an eye on the future.",
     "Abhishek is one the best engineers on our train.  He has built an onboarding program for new engineers that will get leveraged across the stream.  He has done excellent work for us and is always up for any challenge. He is a joy to work with and I learn something from him at every exchange.",
+    "Abhishek is an asset to our team, and he brings us engineering firepower that we had not had before.   He operates above the level of senior software engineer at all times.   He is a mentor and thought leader. I would like to see Abhishek think more outside of the box regarding resource allocations for work. Abhishek should be proud of his efforts, and I look forward to seeing his contributions in the coming year.",
     "Abhishek took little time becoming a thought leader on our train. His impact on our younger engineers and their technical and interpersonal growth cannot be understated. In the few short months that he's been here he's taken the initiative and assumed the responsibility of a Senior Software Engineer from both a technical and a leadership standpoint.",
     "He poses a blend of technical mastery and leadership competency required to excel in the role.  Abhishek continuously looks to improve both himself and the team by investing time during and outside of work learning about new concepts and processes that might aid in that endeavor.  Abhishek goals and values reflect a thoughtful engineer looking for meaning in his work.  His approach with his peers and younger engineers alike allow him to explore those goals as he sees fit.  He would undoubtedly be successful at the next level if he choose to pursue it in the future.",
     "Over the last few months since Abhishek joined the team, he has presented ideas for improvement, not only on our team, but our entire stream and platform. He has also filled in as architect while ours is OOO and has don a great job digging in and understanding the process to provide tangible solutions.",
